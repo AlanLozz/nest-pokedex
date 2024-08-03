@@ -18,12 +18,16 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-4. Iniciar el proyecto en ambiente de desarrollo
+4. Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+
+5. Llenar las variables de entorno faltantes en el __.env__
+
+6. Iniciar el proyecto en ambiente de desarrollo
 ```
 npm run start:dev
 ```
 
-5. Inicializar la seed para pruebas en la BD local
+7. Inicializar la seed para pruebas en la BD local
 Para este paso tienes que ejecutar con formato GET el siguiente endpoint
 ```
 http://localhost:5000/api/seed
